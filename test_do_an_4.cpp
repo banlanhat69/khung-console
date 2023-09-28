@@ -2,9 +2,7 @@
 #include<conio.h>
 #include<Windows.h>
 #include"windowsetting.h"
-#include"playground.h"
-#include"lobby.h"
-#include"GoToXY.h"
+
 
 using namespace std;
 
@@ -17,8 +15,6 @@ int main()
 	ShowCur(0);
 	DisableSelection();
 	SetConsoleTitle(L"CO CARO");
-	lobby();
-	//playground();
 	_getch();
 	return 0;
 }
